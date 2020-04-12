@@ -1,4 +1,4 @@
-const handleProfile = (req, res, db) => {
+const handleProfileGET = (req, res, db) => {
    const { id } = req.params;
    let found = false;
    
@@ -17,5 +17,5 @@ const handleProfile = (req, res, db) => {
 }
 
 module.exports = {
-   handleProfile: handleProfile
+   handleProfileGET
 }
